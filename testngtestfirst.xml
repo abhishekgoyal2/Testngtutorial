@@ -15,10 +15,7 @@
     <test name="Car Loan">
     <classes>
       <class name="test.day3">
-      <methods>
-      <exclude name="mobile.*"></exclude>
-    
-      </methods>
+      
       </class>
        </classes>
        </test> 
