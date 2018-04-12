@@ -1,6 +1,7 @@
 package test;
 
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
@@ -40,6 +41,14 @@ public class day3 {
 		//rest APi
 		System.out.println("before suit");
 	}
+	
+	@BeforeMethod
+	public void berforemethod()
+	{
+		//rest APi
+		System.out.println("before every method in day3");
+	}
+	
 	
 	@Test
 	public void Apicarloan()
