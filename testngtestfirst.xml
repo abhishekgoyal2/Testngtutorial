@@ -10,11 +10,8 @@
     <test name="Car Loan">
     <classes>
       
-      <class name="test.day3">
-      <methods>
-      <exclude name="mobilelogin"/>
-      </methods>
-      </class>
+      <class name="test.day3"/>
+   
        </classes>
        </test> 
     <test name="Home Loan">
