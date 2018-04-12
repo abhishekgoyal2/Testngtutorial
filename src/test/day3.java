@@ -6,24 +6,27 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class day3 {
 
+	@Parameters({"URL"})
+	
+	@Test
+	public void weblogin(String urlname)
+	{
+//		login
+		System.out.println("login");
+		System.out.println(urlname);
+	}
+	
 	@BeforeClass
 	public void PreClassday3()
 	{
 //		login
 		System.out.println("Before class day3");
 	}
-	
-	@Test
-	public void weblogin()
-	{
-//		login
-		System.out.println("login");
-	}
-	
 	@Test(groups={"Smoke"})
 	public void mobilelogin()
 	{
