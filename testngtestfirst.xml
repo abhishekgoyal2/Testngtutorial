@@ -3,24 +3,27 @@
 <suite name="Loan Department">
   <test name="Perosnal Loan">
     <classes>
-      <class name="test.day1"/>
+      <class name="test.day1">
+      <methods>
+      <include name="Demo"></include>
+      </methods>
+      </class>
+      
        <class name="test.day2"/>
     </classes>
     </test> 
     <test name="Car Loan">
     <classes>
-      
-      <class name="test.day3"/>
-   
+      <class name="test.day3">
+      <methods>
+      <exclude name="mobilelogin"></exclude>
+      </methods>
+      </class>
        </classes>
        </test> 
     <test name="Home Loan">
     <classes>
-      <class name="test.day4"
-      <methods>
-      <exclude name="mobilelogin"/>
-      </methods>
-      </class>
+      <class name="test.day4"/>
        </classes>
   </test> 
 </suite> 
