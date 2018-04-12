@@ -1,13 +1,22 @@
 package test;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class day3 {
 
+	@BeforeClass
+	public void PreClassday3()
+	{
+//		login
+		System.out.println("Before class day3");
+	}
+	
 	@Test
 	public void weblogin()
 	{
@@ -70,6 +79,13 @@ public class day3 {
 	{
 		//rest APi
 		System.out.println("post suit");
+	}
+	
+	@AfterClass
+	public void PostClassday3()
+	{
+//		login
+		System.out.println("After class day3");
 	}
 	
 }
