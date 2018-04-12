@@ -31,7 +31,7 @@ public class day3 {
 		System.out.println("login mobile");
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void mobilesignlogin()
 	{
 //		login mobile sign in
