@@ -67,7 +67,7 @@ public class day3 {
 	}
 	
 	
-	@Test
+	@Test(dependsOnMethods={"weblogin"})
 	public void Apicarloan()
 	{
 		//rest APi
