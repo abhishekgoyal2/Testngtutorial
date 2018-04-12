@@ -24,7 +24,7 @@ public class day3 {
 		System.out.println("login");
 	}
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void mobilelogin()
 	{
 //		login mobile

@@ -11,7 +11,7 @@ public class day4 {
 		System.out.println("loginhome");
 	}
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void mobilelogin()
 	{
 //		login mobile home

@@ -15,7 +15,7 @@ public class day2 {
 	}
 	
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void loan()
 	{
 		System.out.println("test loand department");
