@@ -34,7 +34,7 @@ public class day3 {
 	
 	
 	@Test
-	public void loginAPI()
+	public void Apicarloan()
 	{
 		//rest APi
 		System.out.println("rest APi");
