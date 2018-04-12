@@ -19,6 +19,21 @@ public class day3 {
 	}
 	
 	@Test
+	public void mobilesignlogin()
+	{
+//		login mobile sign in
+		System.out.println("login mobile sign in");
+	}
+	
+	@Test
+	public void mobilesignoutlogin()
+	{
+//		login mobile sign out
+		System.out.println("login mobile sign out");
+	}
+	
+	
+	@Test
 	public void loginAPI()
 	{
 		//rest APi
