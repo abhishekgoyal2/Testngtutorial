@@ -38,7 +38,7 @@ public class day3 {
 		System.out.println("login mobile sign in");
 	}
 	
-	@Test
+	@Test(timeOut=4000)
 	public void mobilesignoutlogin()
 	{
 //		login mobile sign out
