@@ -4,9 +4,7 @@
   <test name="Perosnal Loan">
     <classes>
       <class name="test.day1">
-      <methods>
-      <include name="Demo"></include>
-      </methods>
+
       </class>
       
        <class name="test.day2"/>
