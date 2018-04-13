@@ -11,7 +11,7 @@ public class day4 {
 	{
 //		login home
 		System.out.println("Home Laon loginhome");
-		System.out.println("urlname");
+		System.out.println(urlname);
 	}
 	
 	@Test(groups={"Smoke"})
