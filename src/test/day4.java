@@ -1,14 +1,17 @@
 package test;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class day4 {
 
-	@Test
-	public void webloginhomeloan()
+		@Parameters({"URL"})
+@Test
+	public void webloginhomeloan(String urlname)
 	{
 //		login home
-		System.out.println("loginhome");
+		System.out.println("Home Laon loginhome");
+		System.out.println("urlname");
 	}
 	
 	@Test(groups={"Smoke"})
