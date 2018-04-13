@@ -10,7 +10,7 @@ public class day4 {
 	public void webloginhomeloan(String urlname)
 	{
 //		login home
-		System.out.println("Home Laon loginhome");
+		System.out.println("Home Loan loginhome");
 		System.out.println(urlname);
 	}
 	
