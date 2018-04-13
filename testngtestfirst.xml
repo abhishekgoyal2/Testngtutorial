@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
+<parameter name="URL" value="http://www.qaclickacademy.com/" />
   <test name="Perosnal Loan">
+  <parameter name="URL" value="http://www.personalloan.com/" />
+  
     <classes>
       <class name="test.day1">
 
@@ -11,6 +14,7 @@
     </classes>
     </test> 
     <test name="Car Loan">
+    <parameter name="URL" value="http://www.carloan.com/" />
     <classes>
       <class name="test.day3">
       
