@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
-<parameter name="URL", value="http://www.qaclickacademy.com/" />
+<parameter name="URL" value="http://www.qaclickacademy.com/"/>
   <test name="Perosnal Loan">
-  <parameter name="URL" value="http://www.personalloan.com/" />
+  <parameter name="URL" value="http://www.personalloan.com/"/>
   
     <classes>
       <class name="test.day1">
@@ -17,8 +17,8 @@
     
     </test> 
     <test name="Car Loan">
-    <parameter name="URL" value="http://www.carloan.com/" />
-    <parameter name="API/UserName", value="12345" />
+    <parameter name="URL" value="http://www.carloan.com/"/>
+    <parameter name="API/UserName" value="12345"/>
     <classes>
       <class name="test.day3">
       
