@@ -22,6 +22,8 @@
        </classes>
        </test> 
     <test name="Home Loan">
+      <parameter name="URL" value="http://www.Homeloan.com/" />
+    
     <classes>
       <class name="test.day4"/>
        </classes>
