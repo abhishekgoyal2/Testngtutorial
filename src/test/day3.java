@@ -6,6 +6,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -42,11 +43,13 @@ public class day3 {
 		System.out.println("login mobile sign in");
 	}
 	
-	@Test(timeOut=4000)
-	public void mobilesignoutlogin()
+	@Test(dataProvider="getData")
+	public void mobilesignoutlogin(String username,String password)
 	{
 //		login mobile sign out
 		System.out.println("login mobile sign out");
+		System.out.println(username);
+		System.out.println(password);
 	}
 	
 	@BeforeSuite
@@ -91,5 +94,32 @@ public class day3 {
 //		login
 		System.out.println("After class day3");
 	}
+	
+	@DataProvider
+	public 	Object[][] getData()
+	{
+		//1st combination -username/password
+		//2nd combination -username/password
+		//3rd combination -username/password
+		Object[][] data =new Object[3][2];
+		//1st set
+data[0][0]="firstname" ;
+data[0][1]="password" ;
+
+//2nd set
+data[1][0]="secondname" ;
+data[1][1]="secondpassword" ;
+
+//3rd set
+data[2][0]="thirdname" ;
+data[2][1]="thirdpassword" ;
+
+
+//columns in row value for particular combination row
+
+	
+return data;
+	}
+	
 	
 }
