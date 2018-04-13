@@ -11,14 +11,15 @@ import org.testng.annotations.Test;
 
 public class day3 {
 
-	@Parameters({"URL"})
+	@Parameters({"URL","API/UserName"})
 	
 	@Test
-	public void weblogin(String urlname)
+	public void weblogin(String urlname,String username)
 	{
 //		login
 		System.out.println("login");
 		System.out.println(urlname);
+		System.out.println(username);
 	}
 	
 	@BeforeClass
